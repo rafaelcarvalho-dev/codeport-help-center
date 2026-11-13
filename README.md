@@ -6,6 +6,10 @@ A landing page for the help center of **Codeport**, a fictional API tool. It fea
 
 Built with HTML and CSS only.
 
+## Live demo
+
+[rafaelcarvalho-dev.github.io/codeport-help-center](https://rafaelcarvalho-dev.github.io/codeport-help-center/)
+
 ## Features
 
 - Header with navigation links ("Send a request" and "Sign in")
@@ -34,6 +38,7 @@ The layout is built mobile-first and adapts with `min-width` breakpoints:
 ## Highlights
 
 - Semantic HTML (`header`, `nav`, `main`, `article`, `section`, `footer`, `address`)
+- `lang="pt-br"`, a descriptive `title` and a `meta description` for search engines
 - Accessible search form with a visually hidden `label`
 - Decorative icons use empty `alt` text; the search button icon has a descriptive `alt`
 - Layout with Flexbox and CSS Grid
@@ -64,8 +69,18 @@ codeport-help-center/
 
 - HTML5
 - CSS3 (Flexbox, Grid, media queries)
+- Deployed with GitHub Pages
 
 > The page content is in Brazilian Portuguese. Links are placeholders (`#`) since the product is fictional.
+
+## Next steps
+
+- Add JavaScript interactivity (for example, filtering the category cards from the search bar)
+- Give each repeated "Saiba mais" link a descriptive `aria-label`, so screen reader users know which topic it opens
+
+## Credits
+
+Visual reference: the Abstract help center page from Front End Practice. The code is my own implementation, written for study purposes.
 
 ## Author
 
